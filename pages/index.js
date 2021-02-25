@@ -4,7 +4,13 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
    
-    <img src="/silverbanana.png" alt="silverbanana.png" className={styles.logo} />
+    <Image
+  src="/vercel/pages/silverbanana.png"
+  alt="silverbanana logo"
+  width={500}
+  height={500}
+/>
+   
     
     <div className={styles.container}>
   

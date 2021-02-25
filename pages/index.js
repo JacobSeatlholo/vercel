@@ -21,7 +21,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://www.facebook.com/printingcapetown" className={styles.card}>
-            <h3>About us </h3>
+            <h3>About us</h3>
             <p>Find in-depth information about Silver Banana.</p>
           </a>
 
@@ -56,7 +56,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{""}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>

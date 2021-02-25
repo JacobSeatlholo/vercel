@@ -4,9 +4,9 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     
-      <img src="https://i.ibb.co/tJMF41D/Silverbanana-Logo-png.png" alt="Silverbanana-Logo-png" border="0" /></a> 
+    <img src="https://i.ibb.co/tJMF41D/Silverbanana-Logo-png.png" alt="Silverbanana-Logo-png" border="0" /></a> 
     <div className={styles.container}>
-    
+        
       <Head>
         <title>Silver Banana Printing</title>
         <link rel="icon" href="/favicon.ico" />

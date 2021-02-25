@@ -2,7 +2,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  return (     
+  return (
+    <div className={styles.container}>
       <Head>
         <title>Silver Banana Printing</title>
         <link rel="icon" href="/favicon.ico" />

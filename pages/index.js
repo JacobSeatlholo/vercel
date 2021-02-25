@@ -26,7 +26,7 @@ export default function Home() {
           </a>
 
           <a href="/" className={styles.card}>
-            <h3>Learn about our services &rarr;</h3>
+            <h3>Discover our services &rarr;</h3>
             <p>Learn about Silver Banana and what we can do for you!</p>
           </a>
 

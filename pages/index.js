@@ -3,6 +3,9 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    
+    Powered by{""}
+          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
    
     <Image
   src="/vercel/pages/silverbanana.png"

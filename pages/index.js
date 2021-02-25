@@ -21,7 +21,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://www.facebook.com/printingcapetown" className={styles.card}>
-            <h3>About us</h3>
+            <h3>About us &rarr</h3>
             <p>Find in-depth information about Silver Banana.</p>
           </a>
 

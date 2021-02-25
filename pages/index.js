@@ -3,6 +3,9 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    
+    <img id="SilverbananaLogo.png" src="SilverbananaLogo.png" alt="SilverbananaLogo.png" width="304" height="228">
+    
     <div className={styles.container}>
       <Head>
         <title>Silver Banana Printing</title>

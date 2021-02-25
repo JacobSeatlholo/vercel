@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
    
-    <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+    <img src="/silverbanana" alt="silverbanana" className={styles.logo} />
     
     <div className={styles.container}>
   

@@ -21,21 +21,21 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://www.facebook.com/printingcapetown" className={styles.card}>
-            <h3>About us;</h3>
+            <h3>About us</h3>
             <p>Find in-depth information about Silver Banana.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/" className={styles.card}>
+            <h3>Learn about our services &rarr;</h3>
+            <p>Learn about Silver Banana and what we can do for you!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href=" / "
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>Our portfolio  &rarr;</h3>
+            <p>Discover and browse through our portfolio and projects.</p>
           </a>
 
           <a

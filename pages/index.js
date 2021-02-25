@@ -4,16 +4,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     
-    
-   
-    <Image
-  src="/vercel/silverbanana"
-  alt="silverbanana logo"
-  width={500}
-  height={500}
-/>
-   
-    
+     
     <div className={styles.container}>
   
       <Head>
@@ -27,7 +18,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Cape Town Printing{' '}
+          Printing|Packaging|Branding{' '}
           <code className={styles.code}> </code>
         </p>
 

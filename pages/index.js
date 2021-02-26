@@ -1,9 +1,11 @@
-function add_img() { 
-	var img = document.createElement('img'); 
-    img.src = 'https://media.geeksforgeeks.org/wp-content/uploads/20190529122828/bs21.png'; 
-	document.getElementById('body').appendChild(img);
+import Image from 'next/image'
+
+function Avatar() {
+  return <Image src="/silverbanana.png" alt="me" width="64" height="64" />
 }
 
+export default Avatar
+	
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 

@@ -1,3 +1,8 @@
+function add_img() { 
+	var img = document.createElement('img'); 
+    img.src = 'https://media.geeksforgeeks.org/wp-content/uploads/20190529122828/bs21.png'; 
+	document.getElementById('body').appendChild(img);
+}
 
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'

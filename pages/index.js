@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
+
 
     <img src="/silverbanana.png" alt="silverbanana.png" className={styles.logo} />
      

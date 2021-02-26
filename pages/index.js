@@ -1,9 +1,10 @@
 
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 
-    <img src="/silverbanana.png" alt="silverbanana.png" className={styles.logo} />
-     
+export default function Home() {
+  return (
     <div className={styles.container}>
-  
       <Head>
         <title>Silver Banana Printing</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,8 +16,8 @@
         </h1>
 
         <p className={styles.description}>
-          Printing|Packaging|Branding{' '}
-          <code className={styles.code}> </code>
+          Cape Town Printing{' '}
+          <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
@@ -39,7 +40,7 @@
           </a>
 
           <a
-            href="https://www.bizcommunity.com/Company/SilverBananaCapeTownSouthAfrica"
+            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
             <h3>Contact us &rarr;</h3>
@@ -63,6 +64,3 @@
     </div>
   )
 }
-
-</body>
-</html>
